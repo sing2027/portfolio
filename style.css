@@ -1,0 +1,86 @@
+/* Add this CSS to your styles.css file */
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .image-gallery img {
+        width: 100%;
+    }
+}
+
+/* Additional Styles */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 30%; /* Adjust as needed */
+    margin-bottom: 10px;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+
+    .image-gallery img {
+        width: 100%;
+    }
+}
+
+/* Additional Styles */
+.image-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 30%; /* Adjust as needed */
+    margin-bottom: 10px;
+    overflow: hidden;
+    border: 5px solid #ccc; /* Gray border color */
+    margin-bottom: 20px; /* Add space below each image */
+    border-radius: 15px; /* Rounded border shape */
+    background-color: #f0f0f0; /* Gray background color */
+}
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Add space between images */
+
+}
+
+.col-md-12 {
+    margin-top: 20px;
+}
+
+
+/* Styles for the footer and social media icons */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust the size of the social media icons as needed */
+}
